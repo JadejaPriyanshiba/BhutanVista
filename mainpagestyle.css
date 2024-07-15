@@ -1,0 +1,113 @@
+@font-face {
+    font-family: mainfont;
+    src: url('assets/fonts/f24q220-fogato-fogato-regular-400.otf');
+}
+@font-face {
+    font-family: subextralight;
+    src: url('assets/fonts/CooperHewitt-Light.otf');
+}
+@font-face {
+    font-family: sublight;
+    src: url('assets/fonts/CooperHewitt-Light.otf');
+}
+@font-face {
+    font-family: submeduim;
+    src: url('assets/fonts/HenriDidot.otf');
+}
+body,html{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+.bgdiv{
+    max-width: 100%;
+    min-height: 100vh;
+    /* background-image: url('https://images.unsplash.com/photo-1608791378807-53caa6648b03?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); */
+    background-image: url('https://images.pexels.com/photos/4525420/pexels-photo-4525420.jpeg?cs=srgb&dl=pexels-ming-4525420.jpg&fm=jpg');
+    /* background-image: url('https://images.pexels.com/photos/738926/pexels-photo-738926.jpeg?cs=srgb&dl=pexels-lam-penjor-174474-738926.jpg&fm=jpg'); */
+    /* background-image: url('https://images.pexels.com/photos/4221670/pexels-photo-4221670.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
+    /* background-image: url('https://images.pexels.com/photos/5966251/pexels-photo-5966251.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
+    /* background-image: url('https://images.pexels.com/photos/9195752/pexels-photo-9195752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+.navbar-style{
+    display: inline-flex;
+    gap: 20px;
+    max-height: 70px;
+    min-width: fit-content;
+    font-family: mainfont;
+    /* color: #172d22; */
+    color: #ffffff;
+    font-size: 40px;
+}
+.navbar-style > a{
+    color: #ffffff;
+    text-decoration: solid;
+    max-width: fit-content;
+
+}
+.navbar-style > a:hover{
+    color: #967243;
+    text-decoration: solid;
+    max-width: fit-content;
+
+}
+.nlogo{
+    max-width: 40px !important;
+    max-height: auto;
+    background-image: url('assets/images/whiteOlogo.png');
+    background-size: cover;
+}
+.ntitle{
+    max-width: 198px !important;
+    max-height: 35px !important;
+    background-image: url('assets/images/whiteOtitle.png');
+    background-size: cover;
+}
+.bgdiv > div{font-family: mainfont;color: whitesmoke;}
+.title-style{font-size: 110px;line-height: 80px;}
+.sub-style{font-size: 35px; margin-top: 5px;}
+.subtext{
+    font-family: sublight;
+    font-size: 17px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #061930;
+}
+.titletext{
+    font-family: submeduim;
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: #021b01;
+    text-align: center;
+}
+.afade {
+  opacity: 0;
+  transition: all .3s ease;
+}
+.afade.visible {
+  opacity: 1;
+} 
+.simg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.carouseltitle{
+    font-family: mainfont;
+    font-size: 40px;
+    /* color: #a77800; */
+    color: #ffffff;
+    line-height: 30px;
+}
+.carouseltext{
+    font-family: submeduim;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+.styfooter a:hover {
+    color:red;
+}

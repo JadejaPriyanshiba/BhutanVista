@@ -1,0 +1,114 @@
+@font-face {
+    font-family: mainfont;
+    src: url('assets/fonts/f24q220-fogato-fogato-regular-400.otf');
+}
+body{
+    margin:0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.stcon{
+    margin: auto;
+    margin-top: 20%;
+    margin-left: 15%;
+}
+.left-half{
+    background-color: #012d16;
+    color:aliceblue;
+    font-family: mainfont;
+    min-height: 100vh;
+}
+.right-half{
+    min-height: 100vh;
+    color:aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://images.unsplash.com/photo-1534269222346-5a896154c41d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+.left-half > div > p{
+    font-size: 90px;
+    letter-spacing: 0px;
+    margin-bottom: -20px;
+    color: antiquewhite;
+}
+.left-half > div > h5{
+    letter-spacing: 1px;
+    color: antiquewhite;
+}
+.int-sty{
+    padding-left: 16px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: antiquewhite;
+    border-width: 1px;
+    border-radius: 16px; 
+    color: antiquewhite;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.int-sty:focus{
+    outline: 1px solid  #012d16;
+    outline-offset: -1px;
+    border-radius: 16px;
+}
+.int-sty::placeholder{
+    color: antiquewhite;
+    font-size: large;
+    letter-spacing: 3px;
+}
+.check-style{
+    font-size: 20px;
+    color: #90804a;
+    letter-spacing: 2px;
+}
+.check-style>input{
+    border-color: #90804a;
+    border-width: 1px;
+}
+.check-style > input:checked{
+    border-color: #90804a;
+    border-width: 1px;
+    color: #90804a;
+    background-color: #90804a;
+}
+.check-style > input:enabled{
+    border-color: #90804a;
+    border-width: 1px;
+    color: #90804a;
+    background-color: #90804a;
+    box-shadow: none;
+}
+.forgotlink-style{
+    font-size: 20px;
+    color: #90804a;
+    letter-spacing: 2px;
+    text-decoration: solid;
+}
+.forgotlink-style:hover{
+    font-size: 20px;
+    color: #90804a;
+    letter-spacing: 2px;
+    text-decoration: solid;
+}
+.loginbnt{
+    padding-top: -10px;
+    padding-bottom: -10px;
+    background-color: #faebd7cf;
+    border-radius:16px;
+    border: 0.1px solid #012d16;
+    font-size: 30px;
+    color: #012d16;
+}
+.signinbnt{
+    padding-top: -10px;
+    padding-bottom: -10px;
+    background-color: #012d16;
+    border-radius:1px;
+    border: 0.1px solid transparent;
+    font-size: 35px;
+    font-family: mainfont;
+    color: antiquewhite;
+}
