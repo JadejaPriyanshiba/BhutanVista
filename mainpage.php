@@ -4,6 +4,7 @@
         <title>BhutanVista</title>
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="stylesheet" href="mainpagestyle.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <?php
             $servername='localhost';
@@ -38,16 +39,13 @@
         </div>
 
         <!-- Rest of the body -->
-
         <div class="container">
             
             <!-- Section 1: what awaits bhutan? -->
-
             <p data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" class="mt-5 titletext">What Awaits in Bhutan?</p>
             <p data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" class="w-100 mt-2 subtext">Unveil the wonders of Bhutan, where every journey is a new adventure. Nestled in the heart of the Himalayas, Bhutan offers breathtaking landscapes, rich cultural heritage, and deep spirituality. Explore lush valleys, majestic peaks, and ancient monasteries like the iconic Tiger’s Nest. Experience vibrant festivals, where traditions come alive through music and dance. Discover a land committed to Gross National Happiness, where the well-being of its people and nature is paramount. Engage with the warm, hospitable locals and immerse yourself in Bhutanese culture. Whether you seek tranquility, adventure, or cultural enrichment, Bhutan promises an unforgettable experience. Come, embrace the magic and serenity of Bhutan.</p>
             
             <!-- Section 2: Understanding Bhutan -->
-
             <p data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" class="mt-5 pt-3 titletext">Understanding Bhutan</p>
             <div class="row mt-2">
                 <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" style="min-height:30vh !important; background-image: url('https://www.colorado.edu/tibethimalayainitiative/sites/default/files/styles/slider-large/public/slider/image_2.jpg?itok=ae_wri8m');" class="simg col-4"></div>
@@ -68,11 +66,14 @@
                     <p data-aos="fadeIn" data-aos-delay="12" data-aos-duration="2000" data-aos-easing="ease-in-out" style="letter-spacing:0px; text-align: justify;" class="subtext m-3">Bhutan is a constitutional monarchy blending tradition with modern governance. The King, revered as the Druk Gyalpo, symbolizes unity and stability. In 2008, Bhutan transitioned to democracy, holding its first parliamentary elections. The government emphasizes Gross National Happiness, prioritizing sustainable development, environmental conservation, and cultural preservation.</p>
                 </div>
             </div>
+
             <!-- Section 3: Geogrophical Highlights -->
             <p data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" class="titletext mt-5">Geographyical Highlights</p>
-            <div class="row pt-3 px-5 pb-5 justify-content-center">
+
+            <!-- part 1:Regions of Bhutan -->
+            <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out"  class="row pt-3 px-5 pb-5 justify-content-center">
                     <!-- Style 1 left one side image in box 
-                        <div style="position:relative;">
+                    <div style="position:relative;">
                         <div style="left:40%;position: relative; background-color: cadetblue; min-height:45vh; max-width: 55vh; right:-10vh;">
                             <div style="width: 40vh; height:40vh ps-5 py-2 ms-5 bg-warning">
                                 txt here
@@ -82,72 +83,36 @@
 
                         </div>
                     </div> -->
-                    
-                <div class="col-5 align-self-center">
-                    <!-- <div class="col-5 pe-0 align-self-center pt-5">
-                        <div class="simg m-0" style="background-size: cover; min-height:22vw; max-height:22vw; min-width:22vw; max-width:22vw; border-radius:100%; background-image: url('https://images.unsplash.com/photo-1720937172267-575f3575386b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');"></div>
-                        88888<div class="simg" style="border: 5px solid white; margin-top:-6vw; margin-left:15vw; min-height:7vw; max-width:7vw; border-radius:100%; background-image: url('https://images.pexels.com/photos/5966251/pexels-photo-5966251.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');"></div>
-                        <div class="simg m-0" style=" border:5px slid white; margin-top:-6vw; margin-left:15vw; background-size: cover; min-height:7vw; max-width:7vw; border-radius:100%; background-image: url('https://images.unsplash.com/photo-1720937172267-575f3575386b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');"></div>
-                    </div> -->
-                    <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" class="row">
-                        <!-- 88888 <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" style="background-image: url('https://assets.traveltriangle.com/blog/wp-content/uploads/2018/09/Best-Time-To-Visit-Royal-Manas-National-Park-In-Bhutan.jpg?tr=w-400'); border: 3px solid white; min-height:150px;" class="simg col-4 p-1"></div> 88888 -->
-                        <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" style="border: 3px solid white; min-height:150px;" class="simg col-4 p-1"></div>
-                        <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" style="background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/28/a9/2b/3d/trashigang-is-a-district.jpg'); border: 3px solid white; min-height:150px;" class="simg col-8 p-1"></div>
+                    <!-- Style 2: bubbles -->
+                    <div class="col-5 pe-0 align-self-center pt-5">
+                        <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out"  class="simg m-0" style="min-height:22vw; max-width:22vw; border-radius:100%; background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/PunakhaDzong.jpg/1200px-PunakhaDzong.jpg');"></div>
+                        <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out"  class="simg" style="border: 5px solid white; margin-top:-8vw; margin-left:13vw; min-height:10vw; max-width:10vw; border-radius:100%; background-image: url('https://www.andbeyond.com/wp-content/uploads/sites/5/Bhutan-Thimpu-Valley-Website-square-800x800-fill-gravityauto.jpg');"></div>
+                    </div> 
+                    <div class="col-7 ps-5 align-self-center pe-5">
+                        <p data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" style="font-size: 23px;" class="titletext ps-4">Regions in Bhutan</p>
+                        <p data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" style="letter-spacing: 2px;" class="subtext ps-4">Bhutan is divided into distinct regions, each offering unique cultural experiences and natural beauty.<br>Western Bhutan: Includes Thimphu and Paro, known for their blend of tradition and modernity. Thimphu features the Tashichho Dzong and National Memorial Chorten, while Paro is home to the iconic Paro Taktsang monastery.<br>Central Bhutan: Characterized by lush valleys and historical dzongs like Punakha Dzong, situated at the confluence of rivers.<br>Eastern Bhutan: Known for rugged terrain and traditional village life, with districts like Trashigang offering ancient monasteries and scenic landscapes.<br>Southern Bhutan: Features subtropical plains and wildlife sanctuaries such as Royal Manas National Park.</p>
                     </div>
-                    <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" class="row">
-                        <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" style="border: 3px solid white; background-image:url('https://upload.wikimedia.org/wikipedia/commons/8/8f/Trashigang_town-Bhutan-2008-01-02.jpg'); min-height:150px;" class="simg col-6 p-1"></div>
-                        <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" style="border: 3px solid white; background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/PunakhaDzong.jpg/1200px-PunakhaDzong.jpg'); min-height:150px;" class="simg col-6 p-1"></div>
-                    </div>
-                    <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" class="row">
-                        <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" style="background-image:url('https://www.andbeyond.com/wp-content/uploads/sites/5/padd-field-thimpu-bhutan.jpg'); border: 3px solid white; min-height:150px;" class="simg col-8 p-1"></div>
-                        <!-- 888888 <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" style="background-image:url('https://www.andbeyond.com/wp-content/uploads/sites/5/Bhutan-Thimpu-Valley-Website-square-800x800-fill-gravityauto.jpg'); border: 3px solid white; min-height:150px;" class="simg col-4 p-1"></div> 88888 -->
-                        <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" style="border: 3px solid white; min-height:150px;" class="simg col-4 p-1"></div>
-                    </div>
-                </div>
-                <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" class="col-7 ps-5 align-self-center pe-5">
-                    <p data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" style="font-size: 23px;" class="titletext ps-4">Regions in Bhutan</p>
-                    <p data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" style="letter-spacing: 2px;" class="subtext ps-4">Bhutan is divided into distinct regions, each offering unique cultural experiences and natural beauty.<br>Western Bhutan: Includes Thimphu and Paro, known for their blend of tradition and modernity. Thimphu features the Tashichho Dzong and National Memorial Chorten, while Paro is home to the iconic Paro Taktsang monastery.<br>Central Bhutan: Characterized by lush valleys and historical dzongs like Punakha Dzong, situated at the confluence of rivers.<br>Eastern Bhutan: Known for rugged terrain and traditional village life, with districts like Trashigang offering ancient monasteries and scenic landscapes.<br>Southern Bhutan: Features subtropical plains and wildlife sanctuaries such as Royal Manas National Park.</p>
-                </div>
             </div>
-            <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" class="row p-5">
-                <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" class="col-7 align-self-center pe-5">
+
+            <!-- part 2: Major cities of Bhutan -->
+            <div class="row p-5">
+                <div class="col-7 align-self-center pe-5">
                     <p data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" style="font-size: 23px;" class="titletext p-4">Major Cities in Bhutan</p>
                     <p data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" style="letter-spacing: 2px;" class="subtext p-4">Explore Bhutan's major cities, each offering a unique blend of tradition and modernity.<br>Thimpu: Bhutan's capital, where ancient monasteries coexist with modern infrastructure like the Tashichho Dzong and bustling markets.<br>Paro: Known for the Paro Taktsang monastery and the vibrant Paro town, offering a gateway to Bhutan's cultural heart.<br>Punakha: Home to the historic Punakha Dzong, set against scenic river confluences and serene countryside.<br>Wangdue Phodrang: Famous for its dzong and traditional crafts, set amidst picturesque valleys.<br>Phuentsholing: Bhutan's gateway city, connecting to India, with bustling markets and a blend of Bhutanese and Indian cultures.</p>
                 </div>
-                <div class="col-5 align-self-center">
-                    <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" class="row">
-                        <!-- <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" style="background-image:url('https://media.holidify.com/images/cmsuploads/compressed/914ba4291d9b4f5c611ca6123de8cdd0_20240522124915.jpg'); border: 3px solid white; min-height:150px;" class="simg col-4 p-1"></div> -->
-                        <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" style="border: 3px solid white; min-height:150px;" class="simg col-4 p-1"></div>
-                        <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" style="background-image:url('https://static.wanderon.in/wp-content/uploads/2024/04/wangdue-tshechu-festival.jpg'); border: 3px solid white; min-height:150px;" class="simg col-8 p-1"></div>
-                    </div>
-                    <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" class="row">
-                        <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" style="background-image:url('https://bayuel.com/static/photos/attraction/Wangdue-Phodrang-Dzong-876x540.jpg'); border: 3px solid white; min-height:150px;" class="simg col-6 p-1"></div>
-                        <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" style="background-image:url('https://img.traveltriangle.com/blog/wp-content/uploads/2018/06/Tamchoe-Monastery-Paro-Bhutan.jpg'); border: 3px solid white; min-height:150px;" class="simg col-6 p-1"></div>
-                    </div>
-                    <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" class="row">
-                        <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" style="background-image:url('https://az26747.vo.msecnd.net/www/images/core/punakha/punakha-monastery.jpg'); border: 3px solid white; min-height:150px;" class="simg col-8 p-1"></div>
-                        <!-- <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" style="background-image:url('https://foodandtravel.com/imager/hours/125960/Bhutan_821631bb23140209ea99c8f810f75634.jpg'); border: 3px solid white; min-height:150px;" class="simg col-4 p-1"></div> -->
-                        <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" style="border: 3px solid white; min-height:150px;" class="simg col-4 p-1"></div>
-                    </div>
+                <div class="col-5 pe-0 align-self-center ">
+                        <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out"  class="simg m-0" style="min-height:22vw; max-width:22vw; border-radius:100%; background-image: url('https://media.holidify.com/images/cmsuploads/compressed/914ba4291d9b4f5c611ca6123de8cdd0_20240522124915.jpg');"></div>
+                        <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out"  class="simg" style="border: 5px solid white; margin-top:-15vw; margin-left: -3vw; min-height:10vw; max-width:10vw; border-radius:100%; background-image: url('https://media.istockphoto.com/id/1183080420/photo/gangteng-monastery-bhutan.jpg?s=612x612&w=0&k=20&c=rzvVoepoEt4v5JaaRsWNl9qCodBfQ0gmDUQjvRKgROc=');"></div>
                 </div>
             </div>
+
+            <!-- part 3: Key attractions of Bhutan -->
             <div class="row p-5">
-                <div class="col-5 align-self-center">
-                    <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" class="row">
-                        <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" style="background-image:url('https://media.istockphoto.com/id/1183080420/photo/gangteng-monastery-bhutan.jpg?s=612x612&w=0&k=20&c=rzvVoepoEt4v5JaaRsWNl9qCodBfQ0gmDUQjvRKgROc='); border: 3px solid white; min-height:150px;" class="simg col-4 p-1"></div>
-                        <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" style="background-image:url('https://bhutantourisms.wordpress.com/wp-content/uploads/2016/10/wangduephodrang.jpg?w=685'); border: 3px solid white; min-height:150px;" class="simg col-8 p-1"></div>
-                    </div>
-                    <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" class="row">
-                        <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" style="background-image:url('https://drukcdn.blob.core.windows.net/www/images/media/gangtey-monas2.jpg'); border: 3px solid white; min-height:150px;" class="simg col-6 p-1"></div>
-                        <!-- <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" style="background-image:url('https://media1.thrillophilia.com/filestore/y1qkpok2iooyaom3qsc2i825n43q_Bhutan-Dana_Scheffler-1.png'); border: 3px solid white; min-height:150px;" class="simg col-6 p-1"></div> -->
-                        <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" style="border: 3px solid white; min-height:150px;" class="simg col-6 p-1"></div>
-                    </div>
-                    <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" class="row">
-                        <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" style="background-image:url('https://www.thecultureist.com/wp-content/uploads/2015/10/phobjikha-e1446691256468.jpg'); border: 3px solid white; min-height:150px;" class="simg col-8 p-1"></div>
-                        <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" style="background-image:url('https://img.traveltriangle.com/blog/wp-content/uploads/2017/12/acj-2312-haa-valley-6.jpg'); border: 3px solid white; min-height:150px;" class="simg col-4 p-1"></div>
-                    </div>
+                <div class="col-5 pe-0 align-self-center">
+                        <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out"  class="simg m-0" style="min-height:22vw; max-width:22vw; border-radius:100%; background-image: url('https://gangteylodge.com/app/uploads/2022/12/experiences-banner-scaled.jpg');"></div>
+                        <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out"  class="simg" style="border: 5px solid white; padding-bottom:10vw; margin-top:-15vw; margin-left:13vw; min-height:10vw; max-width:10vw; border-radius:100%; background-image: url('https://ewenbell.com/10k/mcache/Phobjikha%20Valley/F-1DM49814.jpg');"></div>
                 </div>
-                <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" class="col-7 align-self-center ps-5">
+                <div class="col-7 align-self-center ps-5">
                     <p data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" style="font-size: 23px;" class="titletext ps-4">Key Attractions in Bhutan</p>
                     <p data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" style="letter-spacing: 2px;" class="subtext ps-4">Discover Bhutan's iconic tourist attractions, blending spirituality, history, and natural beauty.<br>Paro Taktsang (Tiger's Nest): A sacred monastery perched on a cliffside, offering stunning views and spiritual significance.<br>Punakha Dzong: An architectural masterpiece at the confluence of rivers, showcasing Bhutan's ancient fortress-monastery design.<br>Tashichho Dzong, Thimphu: The seat of Bhutanese government and a religious center, known for its intricate architecture and vibrant festivals.<br>Gangtey Monastry: Nestled in the Phobjikha Valley, renowned for its serene ambiance and traditional Buddhist teachings.<br>Phobjikha Valley: A glacial valley home to the rare black-necked cranes during winter, offering breathtaking landscapes and wildlife.<br>Haa Valley: Known for its cultural heritage and pristine landscapes, perfect for trekking and exploring traditional Bhutanese villages.</p>
                 </div>
@@ -211,13 +176,9 @@
             </div>
             <p data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" class="pt-5 p-2 titletext">Plan Your Perfect Trip</p>
             <div class="row">
-                <!-- <div class="col-5 pe-0 align-self-center pt-5">
-                    <div class="simg m-0" style="background-size: contain; min-height:22vw; max-width:22vw; border-radius:100%; background-image: url('https://i.pinimg.com/originals/e1/16/3c/e1163c00b19b39dd0d25625bc2235f5b.png');"></div>
-                    <div class="simg" style="border: 5px solid white; margin-top:-6vw; margin-left:15vw; min-height:7vw; max-width:7vw; border-radius:100%; background-image: url('https://images.pexels.com/photos/5966251/pexels-photo-5966251.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');"></div>
-                </div> -->
                 <div class="col-5 pe-0 align-self-center pt-5">
                     <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" class="simg m-0" style="background-size: contain; min-height:22vw; max-width:22vw; border-radius:100%; background-image: url('https://i.pinimg.com/originals/e1/16/3c/e1163c00b19b39dd0d25625bc2235f5b.png');"></div>
-                    <!-- <div class="simg" style="border: 5px solid white; margin-top:-6vw; margin-left:15vw; min-height:7vw; max-width:7vw; border-radius:100%; background-image: url('https://images.pexels.com/photos/5966251/pexels-photo-5966251.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');"></div> -->
+                    <!-- 888888<div class="simg" style="border: 5px solid white; margin-top:-6vw; margin-left:15vw; min-height:7vw; max-width:7vw; border-radius:100%; background-image: url('https://images.pexels.com/photos/5966251/pexels-photo-5966251.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');"></div> -->
                 </div>
                 <div class="col-2 justify-content-center" style="display:flex">
                     <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" style="border: 0.05px solid #969084; width:1px; height:100%; align-self: center;"><div style="border-radius:50%; background-color:#969084; width:24px; height:24px; margin-left: -12px; margin-top:-2px; border: 5px solid #ffffff;"></div></div>
@@ -275,9 +236,9 @@
                     $data=$query->fetchAll();
                     foreach($data as $row){ //00461c 654401 855900
                         ?> <div class="col-4 mb-5 justify-content-center" style="display: flex;">
-                                <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" class="p-0 m-0" style="background-color: #915d29; min-height:100%; max-width:fit-content;">
+                                <div data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out" class="p-0 m-0" style="background-color: #95aba3; min-height:100%; max-width:fit-content;">
                                     <div class="simg" style="background-image: url('<?php echo $row['strimglink']?>'); min-height:25vh; max-width:350px"></div>
-                                    <div style="background-color: #915d29; min-height:20vh; max-width:350px">
+                                    <div style="background-color: #95aba3; min-height:20vh; max-width:350px">
                                         <p data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1500" data-aos-easing="ease-in-out" class="titletext m-0 p-2 pt-4" style="color:white; font-size: 20px;"><?php echo $row['strtitle']?></p>
                                         <p data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1550" data-aos-easing="ease-in-out" class="subtext p-4" style="color:white; font-size: 12px;"><?php echo $row['strsubtext']?></p>
                                     </div>
@@ -322,9 +283,17 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
+            
+            <div class = "simg w-100" style="background-image: 'assets/images/geranimo-qzgN45hseN0-unsplash.jpg'; min-height: 500px;">
+                <p data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1550" data-aos-easing="ease-in-out" class="mt-5 titletext">Bon Voyage from Bhutan Vista</p>
+                <p data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1550" data-aos-easing="ease-in-out" class="mt-3 subtext">Dear Travelers,</p>
+                <p data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1550" data-aos-easing="ease-in-out" class="mt-2 ps-5 pe-5 mb-5 subtext">Thank you for visiting Bhutan Vista! This page is just an experiment, and I hope you find it inspiring and helpful. There's so much more to come, so stay tuned. I encourage you to visit Bhutan to experience its breathtaking landscapes and vibrant culture firsthand. Wishing you an unforgettable journey and the best of luck!</p>
+            </div>
+            
             <p data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1550" data-aos-easing="ease-in-out" class="mt-5 titletext">Bon Voyage from Bhutan Vista</p>
             <p data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1550" data-aos-easing="ease-in-out" class="mt-3 subtext">Dear Travelers,</p>
             <p data-aos="fadeIn" data-aos-delay="10" data-aos-duration="1550" data-aos-easing="ease-in-out" class="mt-2 ps-5 pe-5 mb-5 subtext">Thank you for visiting Bhutan Vista! This page is just an experiment, and I hope you find it inspiring and helpful. There's so much more to come, so stay tuned. I encourage you to visit Bhutan to experience its breathtaking landscapes and vibrant culture firsthand. Wishing you an unforgettable journey and the best of luck!</p>
+
         </div>
         <!-- <div class="p-5 w-100 ms-1 row simg" style="background-attachment: fixed; overflow-x:hidden; background-image: url('https://images.unsplash.com/photo-1502252430442-aac78f397426?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');"> -->
         <div class="w-100 simg" style="background-attachment: fixed; overflow-x:hidden; background-image: url('https://images.unsplash.com/photo-1534531409543-069f6204c5b4?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
